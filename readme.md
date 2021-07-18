@@ -8,13 +8,13 @@ You'll be told eventually that the main script will be run. Once that happens, f
 
 First you'll be told that the config file has been made. If you don't want to you don't have to change anything, but if you want these are my recommended changes:
 
-replace| "exit_on_completion": false,
-with   | "exit_on_completion": true,
+replace|` "exit_on_completion": false,`
+with   |` "exit_on_completion": true,`
 
 and
 
-replace| "auto_site_choice": "",
-with   | "auto_site_choice": "onlyfans",
+replace|` "auto_site_choice": "",`
+with   |` "auto_site_choice": "onlyfans",`
 
 ! Make sure you make these changes EXACTLY as shown (case sensitive and all)
 Save that file if you made changes and return to the script and press enter.
