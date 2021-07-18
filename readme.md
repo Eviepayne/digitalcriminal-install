@@ -1,6 +1,6 @@
 In order to run the script please open powershell as admin, then copy and paste the following:
 
-> set-executionpolicy unrestricted
+`set-executionpolicy unrestricted`
 
 Once this is done without errors, you can right click the install.ps1 file and select 'run with powershell'
 Follow the scripts instructions as they come along.
@@ -45,4 +45,4 @@ Once all is done, hit enter and follow the script. It will scrape everything for
 To quit running the script (after it finishes) press Ctrl + C (you will not need to do this if you make the recommended changes to the config file)
 
 To run the script again, open your file explorer, go back to the onlyfans folder and double click on start_ofd.py
-To update the script, open your file explorer to the onlyfans folder, hold shift + right click and open powershell window there, then run: git pull
+To update the script, open your file explorer to the onlyfans folder, hold shift + right click and open powershell window there, then run:` git pull`
