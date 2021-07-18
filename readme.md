@@ -26,6 +26,7 @@ once you find the init file in network debugger follow the rest of the readme.
 
 When you're finished with your auth file should look like the below JSON. Note the spacing, the spaces are important for the syntax. 
 
+```
 {
     "auth": {
     "username": "default",
@@ -38,7 +39,7 @@ When you're finished with your auth file should look like the below JSON. Note t
     "active": true
   }
 }
-
+```
 Once all is done, hit enter and follow the script. It will scrape everything for you.
 
 To quit running the script (after it finishes) press Ctrl + C (you will not need to do this if you make the recommended changes to the config file)
