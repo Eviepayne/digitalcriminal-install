@@ -38,9 +38,7 @@ win32-setctime
 Run the script
 </h1>
 
-In order to run the script put the script where you want the onlyfans folder to be, hold shift and right click the folder and click `open powershell window here`, then run this:
-
-`Get-Content ./DCinstall.ps1 | PowerShell.exe -noprofile -`
+In order to run the script put the script where you want the onlyfans folder to be, hold shift and right click DCinstall.ps1 and click `run with powershell`
 
 Follow the scripts instructions as they come along.
 You'll be told eventually that the main script will be run. Once that happens, follow the below guide.
