@@ -53,6 +53,7 @@ if (!(Test-Location("newenv"))){
         write-host "We are not admin. Elevating..."
         start-sleep -s 2
         Store-Location("cdir")
+        $PID| out-file C:\temp\onlyfans\pid.txt
         Start-Process powershell.exe "-noexit -File",('"{0}"' -f $MyInvocation.MyCommand.Path) -Verb RunAs
         read-host "Press enter once the new window disappears"
         Start-Process powershell.exe "-noexit -File",('"{0}"' -f $MyInvocation.MyCommand.Path)
@@ -70,6 +71,8 @@ if (!(Test-Location("newenv"))){
             }
     default { write-host "Exiting..."
             remove-item -path C:\temp\onlyfans -Recurse
+            $PID2 = Get-content C:\temp\onlyfans\pid.txt
+            stop-process -Id $PID2
             stop-process -Id $PID
             }
     }
