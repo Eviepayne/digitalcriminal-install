@@ -23,7 +23,6 @@ function Install-Onlyfans{
     # # install pip packages
     pip install --user -r ./requirements.txt
     # # inital run script
-    read-host "We're going to start the main script for the inital setup now. Press enter when you're ready"
     ./start_ofd.py
 }
 
