@@ -40,7 +40,7 @@ Run the script
 
 In order to run the script put the script where you want the onlyfans folder to be, hold shift and right click DCinstall.ps1 and click `run with powershell`
 
-Each time you're asked for Security warnings use [R]. This is script execution policy to protect you from background running powershell scripts.
+Each time you're asked for Security warnings use [A]. This is script execution policy to protect you from background running powershell scripts.
 
 <h1>
 Guide
