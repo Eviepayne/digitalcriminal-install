@@ -42,9 +42,6 @@ In order to run the script put the script where you want the onlyfans folder to 
 
 Each time you're asked for Security warnings use [R]. This is script execution policy to protect you from background running powershell scripts.
 
-Follow the scripts instructions as they come along.
-You'll be told eventually that the main script will be run. Once that happens, follow the below guide.
-
 <h1>
 Guide
 </h1>
