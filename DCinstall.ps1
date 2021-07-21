@@ -79,3 +79,4 @@ if (!(Test-Location("newenv"))){
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 Install-OnlyFans
 remove-item -path C:\temp\onlyfans -Recurse
+stop-process -Id $PID
