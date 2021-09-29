@@ -18,7 +18,7 @@ function Test-Location($name){
 
 function Install-Onlyfans{
     # clone digitalcriminal's scraper
-    git clone https://github.com/DIGITALCRIMINAL/OnlyFans
+    git clone https://github.com/DIGITALCRIMINALS/OnlyFans
     cd OnlyFans
     # # install pip packages
     pip install --user -r ./requirements.txt
